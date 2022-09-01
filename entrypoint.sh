@@ -10,4 +10,4 @@ php artisan config:clear
 
 php artisan config:cache
 
-php artisan test
+php ./vendor/bin/phpunit
