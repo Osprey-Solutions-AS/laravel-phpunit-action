@@ -2,8 +2,9 @@
 
 composer install --prefer-dist --ignore-platform-req=ext-gd
 
-cp .env.ci .env
-
-php artisan key:generate
-
-php artisan test
+ls
+#cp .env.ci .env
+#
+#php artisan key:generate
+#
+#php artisan test
